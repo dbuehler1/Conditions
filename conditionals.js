@@ -34,7 +34,7 @@ $(document).ready(function () {
 	    var birthYear = $("#birthYear").val();
         // Get the user's birth year from the text
         // box with ID of "birthYear"
-        if((2020 - birthYear) > 18){
+        if((2020 - birthYear) >= 18){
         $("#birthYearOutput").text("Adult");
         }
         else{
